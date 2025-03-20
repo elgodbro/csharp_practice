@@ -19,5 +19,12 @@ for (var i = 0; i < nums.Length; i++)
     nums[i] *= nums[i] > 0 ?  Math.Pow(min, 2) : Math.Pow(max, 2);
 }
 
+Console.Write($"\nВведите k: ");
+var k = double.Parse(Console.ReadLine());
+
+Console.WriteLine(Array.BinarySearch(nums, k));
+
+Array.Sort(nums);
+
 Console.WriteLine($"Min: {min}, Max: {max}");
 Console.WriteLine($"Полученная послдовательность: {string.Join("; ", nums)}");
