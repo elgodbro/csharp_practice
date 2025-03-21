@@ -3,6 +3,12 @@
 
 ---
 
+> [!NOTE]
+> Во всех работах использовался **.NET 9**
+
+### Day 5 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
+Тема: ***4 Методы. Реализация полиморфизма***
+
 ### Day 4 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
 Тема: ***3 Классы в .NET. Специальные типы классов.***
 
