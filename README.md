@@ -3,6 +3,9 @@
 
 ---
 
+### Day 4 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
+Тема: ***3 Классы в .NET. Специальные типы классов.***
+
 ### Day 3 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day3)
 Тема: ***2 Структуры данных. Алгоритмы обработки структур данных.***
 
