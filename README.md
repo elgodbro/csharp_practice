@@ -6,7 +6,10 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
-### Day 5 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
+### Day 6 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day6)
+Тема: ***5 Отношения между классами. Механизм наследования. Интерфейсы***
+
+### Day 5 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day5)
 Тема: ***4 Методы. Реализация полиморфизма***
 
 ### Day 4 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
