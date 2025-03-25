@@ -6,14 +6,17 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 8 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day8)
+Тема: ***7. Структурная обработка исключений в .NET, проектирование собственных типов исключений.***
+
 ### Day 7 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day7)
-Тема: ***6. Делегаты, события***
+Тема: ***6. Делегаты, события.***
 
 ### Day 6 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day6)
-Тема: ***5. Отношения между классами. Механизм наследования. Интерфейсы***
+Тема: ***5. Отношения между классами. Механизм наследования. Интерфейсы.***
 
 ### Day 5 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day5)
-Тема: ***4. Методы. Реализация полиморфизма***
+Тема: ***4. Методы. Реализация полиморфизма.***
 
 ### Day 4 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day4)
 Тема: ***3. Классы в .NET. Специальные типы классов.***
