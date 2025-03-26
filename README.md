@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 9 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day9)
+Тема: ***8. Коллекции, классы-прототипы, обобщения.***
+
 ### Day 8 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day8)
 Тема: ***7. Структурная обработка исключений в .NET, проектирование собственных типов исключений.***
 
