@@ -6,6 +6,15 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 12 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day12)
+Тема: ***11. Паттерны проектирования.***
+
+### Day 11 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day11)
+Тема: ***10. Паттерны программирования.***
+
+### Day 10 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day10)
+Тема: ***9. Работа с файлами.***
+
 ### Day 9 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day9)
 Тема: ***8. Коллекции, классы-прототипы, обобщения.***
 
