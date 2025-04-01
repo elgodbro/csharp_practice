@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 13 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day13)
+Тема: ***12. Технологии создания графического пользовательского интерфейса.***
+
 ### Day 12 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day12)
 Тема: ***11. Паттерны проектирования.***
 

@@ -12,3 +12,4 @@ service = new BreakfastDecorator(service);
 service = new SpaDecorator(service);
 service = new AirportPickupDecorator(service);
 Console.WriteLine($"{service.GetServiceDetails()} - {service.GetCost()} BYN");
+
