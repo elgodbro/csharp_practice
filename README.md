@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 17 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day17)
+Тема: ***16. Многопользовательское приложение.***
+
 ### Day 16 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day16)
 Тема: ***15. Многопользовательское приложение.***
 
