@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ba22d0-cb8f-4ed8-a20a-43dfe340d5f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Day13/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="886f3543-e8a9-4026-a28c-f5823c8b6b53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Day16/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +33,16 @@
     &quot;accountId&quot;: &quot;c85432bf-91c7-48fe-92ba-5a234929fdd0&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/50341a469131fa51e5443b9bd96c4ca1c96bfa709f7f41fd15941ff6296a8dc/Collection.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2v7Pu7VKxU7jqQvgAsI9T5k1X7t" />
+  <component name="ProjectId" id="2vDmPCZze1GLomizN9rIteu3XMO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +58,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -78,13 +85,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="46ba22d0-cb8f-4ed8-a20a-43dfe340d5f3" name="Changes" comment="" />
-      <created>1743493359136</created>
+      <changelist id="886f3543-e8a9-4026-a28c-f5823c8b6b53" name="Changes" comment="" />
+      <created>1743617484795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1743493359136</updated>
-      <workItem from="1743493360211" duration="2582000" />
-      <workItem from="1743778635235" duration="7686000" />
+      <updated>1743617484795</updated>
+      <workItem from="1743617486259" duration="127000" />
+      <workItem from="1743687994437" duration="528000" />
+      <workItem from="1743693043844" duration="4708000" />
+      <workItem from="1743759154590" duration="1400000" />
     </task>
     <servers />
   </component>

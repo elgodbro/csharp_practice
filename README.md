@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 18 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day18)
+Тема: ***17. Работа с графикой. Анимация.***
+
 ### Day 17 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day17)
 Тема: ***16. Многопользовательское приложение.***
 
