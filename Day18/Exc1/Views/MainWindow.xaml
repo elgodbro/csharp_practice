@@ -119,9 +119,8 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10">
             <Button Content="Обмен сообщениями" Width="150" Click="OpenMessagingWindow_Click" />
         </StackPanel>
-        
+
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 0 10">
-            <!-- Кнопка переключения назад -->
             <Button x:Name="PreviousButton"
                     Content="&lt;"
                     Width="30"
@@ -133,7 +132,6 @@
                     </EventTrigger>
                 </Button.Triggers>
             </Button>
-            <!-- Граница с текстом месяца -->
             <Border x:Name="MonthBorder"
                     Width="150"
                     Height="30"
@@ -148,7 +146,6 @@
                     </TextBlock.RenderTransform>
                 </TextBlock>
             </Border>
-            <!-- Кнопка переключения вперёд -->
             <Button x:Name="NextButton"
                     Content="&gt;"
                     Width="30"
