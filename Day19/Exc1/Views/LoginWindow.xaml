@@ -1,0 +1,56 @@
+﻿<Window x:Class="Exc1.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Вход" Height="250" Width="280"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Background="#FFEFEFEF">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="15 8" />
+            <Setter Property="MinWidth" Value="100" />
+            <Setter Property="Background" Value="#FF3F51B5" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.6" />
+                    <Setter Property="Cursor" Value="No" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="0 0 0 3" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Margin" Value="0 0 0 10" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Margin" Value="0 0 0 15" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Логин:" />
+        <TextBox Grid.Row="1" x:Name="LoginTextBox" />
+
+        <TextBlock Grid.Row="2" Text="Пароль:" />
+        <PasswordBox Grid.Row="3" x:Name="PasswordBox" />
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0">
+            <Button Content="Регистрация" Margin="0 0 10 0" Click="RegisterButton_Click" />
+            <Button Content="Вход" Click="LoginButton_Click" IsDefault="True" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 19 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day19)
+Тема: ***18. Работа с базами данных. Технологии доступа к данным.***
+
 ### Day 18 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day18)
 Тема: ***17. Работа с графикой. Анимация.***
 
