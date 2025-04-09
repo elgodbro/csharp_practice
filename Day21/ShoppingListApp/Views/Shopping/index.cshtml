@@ -1,0 +1,69 @@
+﻿@model ShoppingListApp.Models.ShoppingListViewModel
+@{
+    ViewBag.Title = "Список покупочек чеееек";
+}
+
+<div class="add-form">
+    <h2>Добавить товар</h2>
+    <form asp-action="Add" method="post">
+        <input type="text" asp-for="NewItem.Name" placeholder="Название">
+        <span asp-validation-for="NewItem.Name" class="text-danger"></span>
+
+        <input type="number" asp-for="NewItem.Quantity" placeholder="Кол-во">
+        <span asp-validation-for="NewItem.Quantity" class="text-danger"></span>
+
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-@TempData["MessageType"]">@TempData["Message"]</div>
+}
+
+<div class="lists-container">
+    <div class="column not-bought-column">
+        <h2>Невыполненные покупки</h2>
+        <ul>
+            @if (Model.ItemsNotBought.Count == 0)
+            {
+                <span>Ничего нет</span>
+            }
+            @foreach (var item in Model.ItemsNotBought)
+            {
+                <li>
+                    <span>@item.Name - @item.Quantity шт.</span>
+                    <div style="display: flex; gap: 8px">
+                        <a href="@Url.Action("Mark", new { id = item.Id })">Купить</a>
+                        <a href="@Url.Action("Remove", new { id = item.Id })">Удалить</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="column bought-column">
+        <h2>Выполненные покупки</h2>
+        <ul>
+            @if (Model.ItemsBought.Count == 0)
+            {
+                <span>Ничего нет</span>
+            }
+            @foreach (var item in Model.ItemsBought)
+            {
+                <li>
+                    <span>@item.Name - @item.Quantity шт.</span>
+                    <div style="display: flex; gap: 8px">
+                        <a href="@Url.Action("Mark", new { id = item.Id })">Купить</a>
+                        <a href="@Url.Action("Remove", new { id = item.Id })">Удалить</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

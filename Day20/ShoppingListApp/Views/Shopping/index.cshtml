@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Список покупочек чеееек";
+}
+
+<div class="add-form">
+    <h2>Добавить товар</h2>
+    <form asp-action="Add" method="post">
+        <input type="text" name="name" placeholder="Название" required>
+        <input type="number" name="quantity" placeholder="Кол-во" required>
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+
+<div class="lists-container">
+    <div class="column not-bought-column">
+        <h2>Невыполненные покупки</h2>
+        <ul>
+            @if (Model.ItemsNotBought.Count == 0)
+            {
+                <span>Ничего нет</span>
+            }
+            @foreach (var item in Model.ItemsNotBought)
+            {
+                <li>
+                    <span>@item.Name - @item.Quantity шт.</span>
+                    <a href="@Url.Action("Mark", new { id = item.Id })">Купить</a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="column bought-column">
+        <h2>Выполненные покупки</h2>
+        <ul>
+            @if (Model.ItemsBought.Count == 0)
+            {
+                <span>Ничего нет</span>
+            }
+            @foreach (var item in Model.ItemsBought)
+            {
+                <li>
+                    <span>@item.Name - @item.Quantity шт.</span>
+                    <a href="@Url.Action("Mark", new { id = item.Id })">Вернуть</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
