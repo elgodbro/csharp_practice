@@ -6,11 +6,14 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 22 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day22)
+Тема: ***21. Платформа разработки Веб-приложений ASP.NET.***
+
 ### Day 21 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day21)
-Тема: ***20. Работа с базами данных. Технологии доступа к данным.***
+Тема: ***20. Платформа разработки Веб-приложений ASP.NET.***
 
 ### Day 20 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day20)
-Тема: ***19. Работа с базами данных. Технологии доступа к данным.***
+Тема: ***19. Платформа разработки Веб-приложений ASP.NET.***
 
 ### Day 19 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day19)
 Тема: ***18. Работа с базами данных. Технологии доступа к данным.***
