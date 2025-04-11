@@ -6,6 +6,9 @@
 > [!NOTE]
 > Во всех работах использовался **.NET 9**
 
+### Day 23 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day23)
+Тема: ***22. Развертывание приложения.***
+
 ### Day 22 [[перейти]](https://github.com/elgodbro/csharp_practice/tree/main/Day22)
 Тема: ***21. Платформа разработки Веб-приложений ASP.NET.***
 
